@@ -5,7 +5,6 @@
 <remote name="main" fetch="https://github.com/Burhanverse"/>
 
 <!-- source specific -->
-  <remove-project path="device/mediatek/sepolicy_vndr"/>
   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr.git" remote="main" revision="lineage-20" clone-depth="1"/>
   <remove-project path="packages/apps/Settings"/>
   <project path="packages/apps/Settings" name="packages_apps_Settings.git" remote="code" revision="thirteen" clone-depth="1"/>
